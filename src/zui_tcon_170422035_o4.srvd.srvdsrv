@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_TCON_170422035'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_TCON_170422035'
+  }
+}
+define service ZUI_TCON_170422035_O4 provider contracts odata_v4_ui {
+  expose ZC_TCON_170422035;
+}
